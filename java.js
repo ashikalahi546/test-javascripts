@@ -1143,10 +1143,102 @@
 //   }
 // console.log(isOdd(10))
 
+// function evenString(str){
+//   const size = str.length;
+// console.log(str,size)
+// if(size % 2 === 0){
+//   console.log('even number');
+//   return true;
+// }else{
+//   console.log('odd number');
+//   return false;
+// }
+// }
+// evenString('javascript')
+// evenString('javascripts')
 
 
+// function double(number, doDouble){
+// if(doDouble % 2 === true){
+//   const result = number * 2;
+//   return result;
+// }else{
+//   const result = number * 3;
+//   return result;
+// }
+// }
+// console.log(double(5,true));
+// console.log(double(1,false));
 
 
+// function array(numbers){
+// const len = numbers.length;
+// return len;
+// }
+// console.log(array([1,2,3,4,5,6,7,8,9]))
+
+// function object(numbers){
+// const len = numbers.length;
+// return len;
+// }
+// function obj (person){
+//   const age = person.age;
+//   return age;
+// }
+// const obj2 = object(20);
+// console.log(obj2)
+
+// function sumOfArray (numbers){
+//   let sum = 0;
+//   for(const number of numbers){
+//     console.log(number);
+//   sum+= number;
+//   }return sum
+// }
+
+// const num = [50,30,10,40];
+// const sum = sumOfArray(num);
+// console.log(sum)
+
+
+function evenNumber(numbers){
+  const evens = [];
+  for(const number of numbers){
+  if(number % 2 === 0){
+    console.log(number);
+    evens.push(number);
+  }
+  }return evens;
+}
+
+const numbers = [1,2,3,4,5,7,8,9,7,10];
+// const evens = evenNumber(numbers);
+// console.log(evens)
+function evenNumber(numbers){
+  let sum = 0;
+  for(const number of numbers){
+    if(number % 2 === 0){
+      console.log(number)
+      sum += number;
+    }
+  }return sum;
+}
+
+const sum = evenNumber(numbers);
+console.log(sum)
+// function evenNumber(numbers){
+//   const evens = [];
+//   for(const number of numbers){
+//   if(number % 2 === 0){
+//     console.log(number);
+//     evens.push(number);
+//   }
+//   }return evens;
+// }
+
+// const numbers = [1,2,3,4,5];
+// const evens = evenNumber(numbers);
+// console.log(evens)
 
 
 
