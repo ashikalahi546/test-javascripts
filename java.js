@@ -1201,31 +1201,31 @@
 // console.log(sum)
 
 
-function evenNumber(numbers){
-  const evens = [];
-  for(const number of numbers){
-  if(number % 2 === 0){
-    console.log(number);
-    evens.push(number);
-  }
-  }return evens;
-}
+// function evenNumber(numbers){
+//   const evens = [];
+//   for(const number of numbers){
+//   if(number % 2 === 0){
+//     console.log(number);
+//     evens.push(number);
+//   }
+//   }return evens;
+// }
 
-const numbers = [1,2,3,4,5,7,8,9,7,10];
-// const evens = evenNumber(numbers);
-// console.log(evens)
-function evenNumber(numbers){
-  let sum = 0;
-  for(const number of numbers){
-    if(number % 2 === 0){
-      console.log(number)
-      sum += number;
-    }
-  }return sum;
-}
+// const numbers = [1,2,3,4,5,7,8,9,7,10];
+// // const evens = evenNumber(numbers);
+// // console.log(evens)
+// function evenNumber(numbers){
+//   let sum = 0;
+//   for(const number of numbers){
+//     if(number % 2 === 0){
+//       console.log(number)
+//       sum += number;
+//     }
+//   }return sum;
+// }
 
-const sum = evenNumber(numbers);
-console.log(sum)
+// const sum = evenNumber(numbers);
+// console.log(sum)
 // function evenNumber(numbers){
 //   const evens = [];
 //   for(const number of numbers){
@@ -1239,6 +1239,23 @@ console.log(sum)
 // const numbers = [1,2,3,4,5];
 // const evens = evenNumber(numbers);
 // console.log(evens)
+
+
+
+// const number = [1,2,3,4,5,6];
+// function sumOfArray(number){
+//   let sum = 0;
+// for(const numbers of number){
+//   if(numbers %  2 === 0){
+//     console.log(numbers)
+//     sum =  sum + numbers;
+//   } 
+// }return sum;
+// }
+
+
+// const sumOf = sumOfArray(number);
+// console.log(sumOf)
 
 
 
